@@ -8,6 +8,7 @@
 }
 
 .header {
+    clear: both;
 }
 
 h4 {
@@ -25,8 +26,8 @@ h4 {
 
 .column_left {
     width: 50%;
-/*     float:  left;
- */    text-align: center;
+    float:  left;
+    text-align: center;
 }
 
 img {
@@ -58,4 +59,9 @@ p {
     font-size: 14px;
 }
 
-.footer
+.footer {
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
